@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Me chamo Lucas, tenho 27 anos, sou desenvolvedor Front-end"
+    />
+    <title>Portfólio: Lucas Amaral</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body class="dark">
+    <div id="particles-container"></div>
+    <div id="bar-loading">
+      <div class="progress-bar"></div>
+    </div>
+    <!--loading-->
+    <div class="loading">
+      <!--header-->
+      <header class="header-bg scale-up-ver-top" id="header">
+        <div class="header">
+          <div class="logo">
+            <h1 class="cor-3">
+              <span class="cor-2">Lucas</span>
+            </h1>
+          </div>
+          <nav class="nav-deskotop nav-mobile" data-fadeIn="fadeInDown">
+            <ul class="links-nav">
+              <li><a id="navHome">Inicio</a></li>
+              <li><a id="navAbout">Sobre</a></li>
+              <li><a id="navSkill">Skill</a></li>
+              <li>
+                <a id="navPort">Portfólio</a>
+              </li>
+              <li><a id="navContato">Contato</a></li>
+              <div class="darkMode">
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <div class="ball"></div>
+                </label>
+              </div>
+            </ul>
+          </nav>
+          <!--menu-->
+          <button id="btn-mobile">
+            <span id="hamburger"></span>
+          </button>
+          <!--menu-mobile-->
+        </div>
+      </header>
+      <!--header-->
+      <!--arrowtotop-->
+      <a href="#header" class="back-to-top" data-menu="suave"
+        ><img src="assets/arrow-up.svg" alt=""
+      /></a>
+      <!--arrowtotop-->
+      <!--section-HOME-->
+      <section
+        id="mhome"
+        data-anime="show-down"
+        class="home-bg tabsNav show-down"
+      >
+        <div class="container section-home">
+          <div class="apresentation-text">
+            <p class="subtexto">
+              <span><img class="hi" src="./assets/about/hi.gif" alt="" /></span>
+              Olá meu nome é
+            </p>
+            <h1 class="subtitulo">Lucas Amaral</h1>
+            <p class="subtexto">Eu sou <span class="typing"></span></p>
+            <a target="_blank" rel="noopener" href="../"
+              ><button id="btnHome" class="btnHome">Baixar CV</button></a
+            >
+            <button
+              id="btnHomeContato"
+              class="btnHome btnContato open-form-home"
+            >
+              Entrar em contato
+            </button>
+          </div>
+          <div class="apresentation-img">
+            <div class="card" id="card">
+              <img
+                id="img"
+                src="assets/about/Lucas-home.png"
+                alt="Lucas Amaral"
+              />
+              <img
+                id="img1"
+                src="assets/about/Lucas-home1.png"
+                alt="Lucas Amaral"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section-HOME-->
+      <!--section-about-->
+      <section
+        id="mabout"
+        data-anime="show-down"
+        class="about-bg tabsNav show-down"
+      >
+        <div class="container section-about">
+          <div class="about-text-persona">
+            <h2 class="subtexto" data-intro>Sobre</h2>
+            <p class="texto-pequeno cor-4">
+              Olá, me chamo Lucas e tenho 26 anos, atualmente sou discente de
+              Análise e Desenvolvimento de Sistemas no Senac Pelotas. Desde
+              pequeno sou apaixonado por tecnologia. Então em 2021 descobri esta
+              área sensacional que é a programação, paixão a primeira vista,
+              desde então estou nesta caminhada em busca de conhecimento…
+            </p>
+          </div>
+          <div class="about-text-dados">
+            <div class="dados">
+              <div class="img-dados">
+                <img src="assets/about/smille.svg" alt="Meu nome" />
+              </div>
+              <h3>Meu Nome</h3>
+              <p class="cor-4">Lucas Amaral</p>
+            </div>
+            <div class="dados">
+              <div class="img-dados">
+                <img src="assets/about/mail.svg" alt="Meu email" />
+              </div>
+              <h3>E-mail</h3>
+              <a
+                class="cor-4"
+                rel="noopener"
+                target="_blank"
+                href="mailto:lukinhasilvaamaral@gmail.com?"
+                >lukinhasilvaamaral@gmail.com</a
+              >
+            </div>
+            <div class="dados">
+              <div class="img-dados">
+                <img src="assets/about/phone.svg" alt="Meu telefone" />
+              </div>
+              <h3>Telefone</h3>
+              <a
+                class="cor-4"
+                rel="noopener"
+                target="_blank"
+                href="https://web.whatsapp.com/send?phone=555398139-6119"
+                >(53) 98139-6119</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section-about-->
+      <section
+        id="mskill"
+        data-anime="show-down"
+        class="formacao tabsNav show-down"
+        aria-label="Formação"
+      >
+        <div class="formacao-container container">
+          <div class="subtitulo-skill">
+            <h2 class="subtitulo">Skills</h2>
+            <div class="pack-tecnologia">
+              <div class="tecnologia" data-tilt>
+                <div class="img-tecnologia">
+                  <img src="assets/skill/html5.svg" alt="HTML" />
+                </div>
+                <h3>HTML</h3>
+              </div>
+              <div class="tecnologia" data-tilt>
+                <div class="img-tecnologia">
+                  <img src="assets/skill/css3.svg" alt="CSS" />
+                </div>
+                <h3>CSS</h3>
+              </div>
+              <div class="tecnologia" data-tilt>
+                <div class="img-tecnologia">
+                  <img src="assets/skill/javascript.svg" alt="JAVASCRIPT" />
+                </div>
+                <h3>JAVASCRIPT</h3>
+              </div>
+            </div>
+          </div>
+          <div class="list-facul-type">
+            <p class="formacao-texto">
+              Atualmente estou estudando pelos cursos da
+              <strong>Origamid</strong>, <strong>Otterwise</strong> e estou
+              aprendendo a desenvolver aplicações web com <strong>HTML</strong>,
+              <strong>CSS</strong>, <strong>JAVASCRIPT</strong>,
+              <strong>REACT</strong>.
+            </p>
+            <ul class="faculdade-lista">
+              <li class="faculdade" data-tilt>
+                <span class="faculdade-tipo">Curso Superior</span>
+                <h3 class="faculdade-curso">
+                  Análise e Desenvolvimento de Sistemas
+                </h3>
+                <span class="faculdade-instituicao">Senac Pelotas</span>
+                <span>2021 - 2024</span>
+              </li>
+              <li class="faculdade" data-tilt>
+                <span class="faculdade-tipo">Curso Intensivo</span>
+                <h3 class="faculdade-curso">Desenvolvedor Full Stack</h3>
+                <span class="faculdade-instituicao">Otterwise</span>
+                <span>Cursando</span>
+              </li>
+              <li class="faculdade" data-tilt>
+                <span class="faculdade-tipo">Curso Intensivo</span>
+                <h3 class="faculdade-curso">HTML e CSS</h3>
+                <span class="faculdade-instituicao">Origamid</span>
+                <span>Completo</span>
+              </li>
+              <li class="faculdade" data-tilt>
+                <span class="faculdade-tipo">Curso Intensivo</span>
+                <h3 class="faculdade-curso">JavaScript completo ES6</h3>
+                <span class="faculdade-instituicao">Origamid</span>
+                <span>Cursando</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        data-anime="show-down"
+        id="mportifolio"
+        class="portifolio-bg tabsNav show-down"
+      >
+        <div class="section-portifolio container">
+          <h1 class="titulo">Projetos</h1>
+          <div class="carrousel">
+            <div class="projetos">
+              <img
+                class="item-projeto"
+                src="./assets/projetos/Lucas-port.png"
+                alt="Portfólio"
+                data-tilt
+              />
+              <div class="projeto-description">
+                <h3 class="portTitle">Lucas-silva-Amaral</h3>
+                <p class="portText">
+                  <span class="cor-2">></span> Página pessoal para utilizar como
+                  portfólio.
+                </p>
+                <div class="tecnologia-usada-pack">
+                  <p class="portText">
+                    <span class="cor-2">></span> Tecnologias usadas
+                  </p>
+                  <div class="tecnologias-usada">
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/html5.svg"
+                      alt="HTML"
+                    />
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/css3.svg"
+                      alt="CSS"
+                    />
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/javascript.svg"
+                      alt="CSS"
+                    />
+                  </div>
+                </div>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://github.com/Lucas-Silva-Amaral/Lucasio"
+                  class="btnProjeto"
+                  >VER REPOSITÓRIO</a
+                >
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://github.com/Lucas-Silva-Amaral/Lucasio"
+                  class="btnProjeto"
+                  >VER SITE</a
+                >
+              </div>
+            </div>
+            <!--porjeto2-->
+            <div
+              class="projetos show-down"
+              data-anime="scroll"
+              data-anime="show-down"
+            >
+              <div class="projeto-description">
+                <h3 class="portTitle">Jogo da Memória</h3>
+                <p class="portText">
+                  <span class="cor-2">></span> Joguinho da memória, utilizando
+                  local storage para salvar o recorde.
+                </p>
+                <div class="tecnologia-usada-pack">
+                  <p class="portText">
+                    <span class="cor-2">></span> Tecnologias usadas
+                  </p>
+                  <div class="tecnologias-usada">
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/html5.svg"
+                      alt="HTML"
+                    />
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/css3.svg"
+                      alt="CSS"
+                    />
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/javascript.svg"
+                      alt="CSS"
+                    />
+                  </div>
+                </div>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://github.com/Lucas-Silva-Amaral/Final_work_prog_web"
+                  class="btnProjeto"
+                  >VER REPOSITÓRIO</a
+                >
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://work-prog-web.netlify.app/"
+                  class="btnProjeto"
+                  >VER SITE</a
+                >
+              </div>
+              <img
+                class="item-projeto"
+                src="./assets/projetos/JogoMemoria.png"
+                alt="Projeto Lista de projetos"
+                data-tilt
+              />
+            </div>
+            <div
+              class="projetos show-down"
+              data-anime="scroll"
+              data-anime="show-down"
+            >
+              <img
+                class="item-projeto"
+                src="assets/projetos/bikecraft.jpeg"
+                alt="Projeto-BikeCraft"
+                data-tilt
+              />
+              <div class="projeto-description">
+                <h3 class="portTitle">bikecraft</h3>
+                <p class="portText">
+                  <span class="cor-2">></span> Site desenvolvido no curso da
+                  Origamid.
+                </p>
+                <div class="tecnologia-usada-pack">
+                  <p class="portText">
+                    <span class="cor-2">></span> Tecnologias usadas
+                  </p>
+                  <div class="tecnologias-usada">
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/html5.svg"
+                      alt="HTML"
+                    />
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/css3.svg"
+                      alt="CSS"
+                    />
+                    <img
+                      class="tecSkill"
+                      src="assets/projetos/tecnologia/javascript.svg"
+                      alt="CSS"
+                    />
+                  </div>
+                </div>
+                <a target="_blank" rel="noopener" href="" class="btnProjeto"
+                  >VER REPOSITÓRIO</a
+                >
+                <a target="_blank" rel="noopener" href="" class="btnProjeto"
+                  >VER SITE</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--CONTATO-->
+      <section
+        id="mcontato"
+        data-anime="show-down"
+        class="contato-bg tabsNav show-down"
+      >
+        <div class="container">
+          <form
+            class="section-contato"
+            action="https://formspree.io/f/xdoyrdlr"
+            method="post"
+            target="_blanck"
+            id="contato"
+          >
+            <h2 class="texto">Contato</h2>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Nome*"
+                name="name"
+                required
+              />
+              <span class="erro"></span>
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="E-mail*"
+                name="email"
+                required
+              />
+              <span class="erro"></span>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="assunto"
+                placeholder="Assunto*"
+                name="Subject"
+                required
+              />
+              <span class="erro"></span>
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                id="mensagem"
+                rows="3"
+                placeholder="Sua Mensagem"
+                name="message"
+              ></textarea>
+            </div>
+            <button type="submit" id="btnContato" class="btn btnHome">
+              Enviar
+            </button>
+          </form>
+          <div class="enviadoContato">
+            <h1 class="texto cor-2">
+              Obrigado pelo contato, retornarei em breve
+            </h1>
+          </div>
+        </div>
+      </section>
+      <!--CONTATO-->
+      <footer class="footer-bg scale-up-ver-top" id="footer">
+        <div class="footer container">
+          <div class="redes-sociais">
+            <a
+              class="hvr-float-shadow"
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/Arthury10"
+            >
+              <img src="assets/projetos/redes/github.svg" alt="github-logo" />
+            </a>
+
+            <a
+              class="hvr-float-shadow"
+              target="_blank"
+              rel="noopener"
+              href="https://www.linkedin.com/in/arthur-ropke/"
+            >
+              <img
+                src="assets/projetos/redes/linkedin.svg"
+                alt="linkedin-logo"
+              />
+            </a>
+            <a
+              class="hvr-float-shadow"
+              target="_blank"
+              rel="noopener"
+              href="https://www.instagram.com/arthurropkede/"
+              ><img
+                src="assets/projetos/redes/instagram.svg"
+                alt="instagran-logo"
+            /></a>
+            <a
+              class="hvr-float-shadow"
+              target="_blank"
+              rel="noopener"
+              href="https://www.facebook.com/arthur.ropkedemoraes"
+            >
+              <img
+                class="hvr-float-shadow"
+                src="assets/projetos/redes/facebook.svg"
+                alt="facebook-logo"
+              />
+            </a>
+          </div>
+          <p>
+            <a
+              target="_blanck"
+              rel="noopener"
+              href="https://www.linkedin.com/in/arthur-ropke/"
+              >Lucas Silva</a
+            >
+            ©All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!--loading-->
+    <!--plugins-->
+    <script src="src/js/plugin/particles.js"></script>
+    <script src="src/js/plugin/cards.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <!--scripts-->
+    <script type="module" src="src/js/script.js"></script>
+  </body>
+</html>

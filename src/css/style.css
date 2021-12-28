@@ -1,0 +1,44 @@
+/*global*/
+@import url('global/global.css');
+
+/*load*/
+@import url('global/load.css');
+
+/*cores*/
+@import url('utilitarios/cores.css');
+
+/*tipografia*/
+@import url('utilitarios/tipografia.css');
+
+/*animação*/
+@import url('utilitarios/animacao.css');
+
+/*menu-hamburguer*/
+@import url('utilitarios/menu-hamburguer.css');
+
+/*slide*/
+@import url('utilitarios/slide.css');
+
+/*forms*/
+@import url('utilitarios/forms.css');
+
+/*darkmode*/
+@import url('utilitarios/darkmode.css');
+
+/*header*/
+@import url('global/header.css');
+
+/*home*/
+@import url('home/home.css');
+
+/*about*/
+@import url('about/about.css');
+
+/*skills*/
+@import url('skills/skills.css');
+
+/*projetos*/
+@import url('portifolio/projetos.css');
+
+/*footer*/
+@import url('global/footer.css');
